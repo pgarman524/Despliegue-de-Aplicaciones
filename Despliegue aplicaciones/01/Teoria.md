@@ -39,9 +39,34 @@ Manejan y gestionan bases de datos para almacenar y recuperar información.
 
 
 # Registros
+## A (Address):
+### Devuelve una dirección IP IPv4.
+### Sirve para resolver nombres de alojamientos a números IPv4.
+## AAAA (Address IPv6):
+### Similar al registro A, pero devuelve direcciones IP IPv6.
+## CNAME (Canonical Name):
+### Crea alias de nombres.
+### Puede apuntar a otro dominio o subdominio.
+## MX (Mail Exchange):
+### Apunta al servidor de correo del dominio.
+### Se pueden establecer múltiples registros con prioridades.
+## NS (Name Server):
+### Indica los servidores de nombres autorizados para un dominio.
+Los registros DNS son fundamentales para la funcionalidad y configuración de dominios en internet, permitiendo mapear nombres de dominio a direcciones IP y servicios específicos.
+
 
 # Funcionamiento 
 ## Consulta recursiva 
-## Consulta iterativa
+### Ocurre entre el cliente y su servidor DNS local.
+### El servidor DNS local realiza consultas a otros servidores DNS en nombre del cliente.
+### Procesa consultas recursivamente hasta obtener una respuesta completa.
+### Retorna la respuesta completa al cliente.
+### Es más fácil de configurar pero puede ser menos eficiente.
 
+## Consulta iterativa
+### Ocurre entre el servidor DNS local y otros servidores DNS.
+### El cliente realiza consultas directamente a varios servidores DNS.
+### Puede recibir referencias hasta encontrar la información solicitada.
+### No requiere resolución de nombres ya que cualquier servidor DNS puede proporcionar la resolución si lo sabe.
+### Puede ser más eficiente en algunos casos.
 
