@@ -1,16 +1,16 @@
-	#Nombre de Dominio
+	# Nombre de Dominio
 	
-	#Niveles de Dominio
+	# Niveles de Dominio
 	
-	#Zonas de búsqueda
+	# Zonas de búsqueda
 
-	#Tipos de búsqueda
+	# Tipos de búsqueda
 	
-	#Tipos de servidores
+	# Tipos de servidores
 
-	#Registros
+	# Registros
 
-	#Funcionamiento 
+	# Funcionamiento 
 	## Consulta recursiva 
 	## Consulta iterativa
 
